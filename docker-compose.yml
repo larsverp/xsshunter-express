@@ -42,7 +42,7 @@ services:
       - DATABASE_HOST=postgresdb
       - NODE_ENV=production
     ports:
-      - "8732:82"
+      - "8732:80"
       # - "4256:443"
     volumes:
       # Stores the SSL/TLS certificates and keys
